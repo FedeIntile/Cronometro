@@ -19,12 +19,13 @@ body{
 
     width: 80vw;
     max-width: 600px;
-    /* background-color: white; */
+    background-color: white;
     min-height: 300px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
 }
 
 .contenedor-botones{
@@ -49,6 +50,7 @@ body{
     font-size: 50px;
     margin: 10px;
     padding: 10px;
+    cursor: pointer;
 }
 
 #boton-inicio-pausa.iniciar,
@@ -58,7 +60,7 @@ body{
 
 #boton-inicio-pausa.pausa,
 #boton-inicio-pausa.pausa i{
-    background-color: #ffdc00;
+    background-color: #efe81b;
 }
 
 #boton-reiniciar {
